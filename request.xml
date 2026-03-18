@@ -1,0 +1,7 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <SayHello xmlns="http://tempuri.org/">
+      <name>World</name>
+    </SayHello>
+  </s:Body>
+</s:Envelope>
