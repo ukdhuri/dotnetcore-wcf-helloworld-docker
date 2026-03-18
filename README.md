@@ -70,22 +70,6 @@ docker run -d -p 5000:8080 --name wcf-service helloworldwcf:latest
 
 ---
 
-## 4. Running via Podman
-
-Podman is a daemonless, daemon-free alternative to Docker. The commands are practically identical.
-
-### Step 1: Build the Image
-```bash
-podman build -t helloworldwcf:latest .
-```
-
-### Step 2: Run the Container
-```bash
-podman run -d -p 5000:8080 --name wcf-service-podman helloworldwcf:latest
-```
-
----
-
 ## Testing the Service (Curl)
 
 Whether you are running the service natively (Windows/Linux) or via Docker, once it's listening on port `5000`, you can verify it from any terminal environment that has `curl`.
